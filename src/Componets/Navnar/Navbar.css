@@ -4,8 +4,10 @@
     justify-content: space-between;
     align-items: center;
     color:#f8dede;
-    position:sticky;
+    position:fixed;
     top:0px;
+    left:0px;
+    right:0px;
     background-color: #181C14;
     z-index:999;
     box-shadow:0px 0px 20zpx aqua;
@@ -147,6 +149,9 @@
 @media(max-width:768px){
     .navbar{
         padding:20px;
+    }
+    .navbar .logo h1{
+        font-size:25px;
     }
     .menu-bar{
         display:none;
