@@ -68,7 +68,7 @@ export function Navbar() {
             <AnchorLink className="link" offset={50} href="#hero">Home</AnchorLink>
           </li>
           <li className="toggle-li">
-            <FaAddressBook calssName="toggle-icons" />
+            <FaAddressBook className="toggle-icons" />
             <AnchorLink className="link" offset={50} href="#about">About</AnchorLink>
           </li>
           <li className="toggle-li">
