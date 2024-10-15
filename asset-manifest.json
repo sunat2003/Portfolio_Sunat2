@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/Portfolio_Sunat2/static/css/main.aafd4a5e.css",
+    "main.js": "/Portfolio_Sunat2/static/js/main.aa3b7169.js",
+    "static/js/453.a3cff0d7.chunk.js": "/Portfolio_Sunat2/static/js/453.a3cff0d7.chunk.js",
+    "static/media/portfolio-banner.jpg": "/Portfolio_Sunat2/static/media/portfolio-banner.b6cdcd7597c462ab0a72.jpg",
+    "static/media/project-3.png": "/Portfolio_Sunat2/static/media/project-3.37fb392d07c59a6d2e36.png",
+    "static/media/project-5.png": "/Portfolio_Sunat2/static/media/project-5.73b2062716ab51153ed9.png",
+    "static/media/project-4.png": "/Portfolio_Sunat2/static/media/project-4.948efb4813093ef89df3.png",
+    "static/media/project-2.png": "/Portfolio_Sunat2/static/media/project-2.a89c380a8f61c56785c8.png",
+    "static/media/project-1.png": "/Portfolio_Sunat2/static/media/project-1.389fcceb3a7f53f7091f.png",
+    "static/media/project-7.png": "/Portfolio_Sunat2/static/media/project-7.08af38ad3a16afb0ece2.png",
+    "static/media/project-8.png": "/Portfolio_Sunat2/static/media/project-8.698a43598bff235f0410.png",
+    "static/media/project-6.png": "/Portfolio_Sunat2/static/media/project-6.0818893f539475a41271.png",
+    "static/media/babul photo.jpg": "/Portfolio_Sunat2/static/media/babul photo.c47c42e1b569971f83a5.jpg",
+    "static/media/logo.svg": "/Portfolio_Sunat2/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/Portfolio_Sunat2/index.html",
+    "main.aafd4a5e.css.map": "/Portfolio_Sunat2/static/css/main.aafd4a5e.css.map",
+    "main.aa3b7169.js.map": "/Portfolio_Sunat2/static/js/main.aa3b7169.js.map",
+    "453.a3cff0d7.chunk.js.map": "/Portfolio_Sunat2/static/js/453.a3cff0d7.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.aafd4a5e.css",
+    "static/js/main.aa3b7169.js"
+  ]
+}
