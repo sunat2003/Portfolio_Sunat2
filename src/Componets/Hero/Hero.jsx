@@ -2,7 +2,7 @@ import React from "react";
 import './Hero.css'
 import { useTypewriter,Cursor } from "react-simple-typewriter";
 import photoSunat from "../../image/babul photo.jpg";
-import AnchorLink from "react-anchor-link-smooth-scroll";
+import cv from '../../image/Picsart_24-10-15_18-32-35-807.jpg';
 
 export function Hero(){
   const [text]=useTypewriter({
@@ -22,7 +22,7 @@ export function Hero(){
                 <span className="cur-st"><Cursor/></span>
                 </h1>
                 <p>Is web development the career for you? Learn about web developers, common job responsibilities, how much they earn, and what it takes to get started in the field.</p>
-                <button className="hero-btn"><AnchorLink className="link" offset={50} href="#contact">Contact With Me</AnchorLink></button>
+                <button className="hero-btn"><a href={cv} download >Downlord My Resume</a></button>
               </div>
               <div className="hero-right">
                    <img src={photoSunat} alt="uploading" />

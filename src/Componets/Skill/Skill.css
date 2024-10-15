@@ -4,21 +4,24 @@
   background-size:cover;
   background-position: center;
   color:#fff;
+  position:relative;
+  z-index: 50;
 }
 .skill-shade{
   width:100%;
   height:100%;
   background-color: rgba(0,0,0,0.7);
   padding:40px 80px;
+  z-index:200;
 }
 
 .skill-section h1{
-  width:70px;
-  font-size:30px;
+  font-size:25px;
   font-weight:400;
   margin:20px 0;
   position:relative;
   color:rgb(28, 234, 234);
+  font-family: "Orbitron";
 }
 .skill-div{
   display:flex;
@@ -41,6 +44,7 @@
   margin:0 20px;
   background:rgb(254, 254, 254);
   border-radius:20px;
+  z-index:200;
 }
 .skill-icons-div:hover .skill-icons{
    color:#697565;
@@ -50,6 +54,10 @@
   font-size:50px;
   transition-duration:0.7s;
   cursor: pointer;
+  animation-name:scale-an;
+  animation-duration:2s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
 }
 .html-logo{
   color:rgb(235, 182, 9);
@@ -91,6 +99,60 @@
 .pad-logo{
   color:#4379F2;
 }
+.animation-div{
+    position:absolute;
+    top:50%;
+    left:50%;
+    height:400px;
+    width:400px;
+    translate: -50% -50%;
+    border-radius:50%;
+    border:2px solid rgb(93, 90, 90);
+    border-left:1px solid transparent;
+    border-right:1px solid transparent;
+    z-index:100;
+    animation:4s spin infinite;
+}
+.animation2-div{
+  position:absolute;
+    top:50%;
+    left:50%;
+    height:250px;
+    width:250px;
+    translate: -50% -50%;
+    border-radius:50%;
+    border:2px solid rgb(64, 115, 115);
+    border-left:1px solid transparent;
+    border-right:1px solid transparent;
+    z-index:100;
+    animation:4s spin2 infinite;
+}
+
+@keyframes spin {
+  to{
+     transform: rotate(0deg);
+  }
+  from{
+    transform: rotate(360deg);
+  }
+}
+@keyframes spin2 {
+  to{
+     transform: rotate(360deg);
+  }
+  from{
+    transform: rotate(0deg);
+  }
+}
+@keyframes scale-an{
+  to{
+    transform: scale(100%);
+  }
+  from{
+    transform: scale(106%);
+  }
+}
+
 
 @media(max-width:780px){
   .skill-shade{

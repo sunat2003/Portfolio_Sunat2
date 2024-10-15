@@ -16,6 +16,7 @@
     font-size:30px;
     font-weight:700;
     color:#dcd0d0;
+    font-family: "Orbitron";
 }
 .menu-bar{
     list-style:none;
@@ -100,6 +101,7 @@
 .toggle-div .logo-name{
     font-size:20px;
     font-weight: 400;
+    font-family: "Orbitron";
 }
 .toggle-div .toggle-nav{
     margin:50px 0px;

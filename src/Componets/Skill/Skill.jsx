@@ -72,6 +72,8 @@ export function Skill() {
         </div>
       </div>
       </div>
+      <div className="animation-div"></div>
+      <div className="animation2-div"></div>
     </div>
   );
 }

@@ -5,64 +5,73 @@
     flex-direction: column;
 }
 .project-section>h1{
-    width:140px;
     font-size:30px;
     font-weight:600;
     margin:20px 0;
     position:relative;
     color:#0F67B1;
+    font-family: "Orbitron";
 } 
-
 .projects-div{
     width:100%;
     display:flex;
-    justify-content: center;
-    flex-wrap:wrap;
-    gap:50px;
-    padding:30px 0;
+    flex-direction:column;
+    row-gap:20px;
 }
 .each-project{
-    display:flex;
-    flex-direction: column;
-    width:400px;
-    border-radius:10px;
-    overflow: hidden;
-    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
-    border-bottom: 5px solid #181C14;
-    cursor: pointer;
-    transition: all 0.5s;
-}
-.each-project:hover{
-    transform: scale(104%);
-}
-.each-project img{
     width:100%;
-}
-.each-project-details{
+    display:flex;
+    column-gap:20px;
     padding:20px;
+    border-radius:20px;
+    border:1px solid #000;
+    margin-top:20px;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+.each-project p span{
+     font-weight:700;
+}
+.each-project .left-div{
+    width:50%;
     display:flex;
     flex-direction: column;
-    row-gap:10px;
+    justify-content: center;
+    row-gap:20px;
 }
-.each-project-details h3{
-    font-size:20px;
-    font-weight:700;
+.each-project .left-div h3{
+   font-size:20px;
+   font-weight:600;
+   font-family:"Orbitron";
 }
-.each-project-details p{
-    color:gray;
+.each-project .right-div{
+    width:50%;
+    height:200px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.right-div img{
+    width:300px;
+    border-radius:10px;
+    border:1px solid #000000;
+}
+.projects-btn{
+    display:flex;
+    column-gap:10px;
+}
+.projects-btn .p-btn{
+    outline:none;
+    border:none;
+    border-radius:5px;
+    padding:10px 20px;
+    background-color: #000000;
+    cursor: pointer;
+}
+.projects-btn .p-btn a{
+    text-decoration:none;
+    color:#fff;
     font-size:15px;
 }
-.each-project-details p span{
-    color:blue;
-    text-decoration: underline;
-    cursor: pointer;
-} 
-
-
-
-
-
-
 
 
 
@@ -71,6 +80,22 @@
 
 @media(max-width:768px){
     .project-section{
-        padding:40px;
+        padding:20px;
+    }
+    .each-project{
+        flex-direction:column-reverse;
+        justify-content:flex-end;
+    }
+    .each-project .left-div{
+        width:100%;
+    }
+    .each-project .right-div{
+        width:100%;
     }
 }
+
+
+
+
+
+

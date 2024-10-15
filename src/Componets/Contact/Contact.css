@@ -3,12 +3,12 @@
     padding:40px 80px;
 }
 .contact-section >h1{
-    width:250px;
     font-size:30px;
     font-weight:600;
     margin:10px 0;
     position:relative;
     color:#0F67B1;
+    font-family: "Orbitron";
 }
 
 .contac-details{
@@ -27,6 +27,7 @@
     font-size:25px;
     font-weight:600;
     color:#181C14;
+    font-family: "Orbitron";
 }
 
 .contact-left p{
@@ -70,7 +71,7 @@
     font-size:18px;
     border:none;
     outline:none;
-    background-color: #0F67B1;
+    background-color: #000000;
     border-radius:5px;
     color:#fff;
     cursor: pointer;
