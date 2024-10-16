@@ -78,7 +78,7 @@
     width:80%;
     position:absolute;
     top:0px;
-    right:-8000px;
+    right:-80%;
     background-color:#181C14;
     height:100vh;
     display:flex;
@@ -86,7 +86,7 @@
     align-items: center;
     row-gap:20px;
     padding:50px 0px;
-    transition:1s ease-in-out;
+    transition:0.5s ease-in-out;
     z-index:1000;
 }
 .user-logo{

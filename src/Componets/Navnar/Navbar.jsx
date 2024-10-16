@@ -14,7 +14,7 @@ import { IoClose } from "react-icons/io5";
 import AnchorLink from "react-anchor-link-smooth-scroll";
 
 export function Navbar() {
-  const [toggleStyle,setTogglestyle]=useState({right:"-8000px"});
+  const [toggleStyle,setTogglestyle]=useState({right:"-80%"});
   
   function handeNavToggleClick(){
     setTogglestyle(
@@ -26,7 +26,7 @@ export function Navbar() {
   function handleNavCloseClick(){
     setTogglestyle(
       {
-        right:"-8000px"
+        right:"-80%"
       }
     )
   }
